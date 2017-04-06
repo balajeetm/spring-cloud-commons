@@ -127,7 +127,7 @@ loaded as well, just like in a regular Spring Boot app, e.g. from
 [[overriding-bootstrap-properties]]
 === Overriding the Values of Remote Properties
 
-The property sources that are added to you application by the
+The property sources that are added to your application by the
 bootstrap context are often "remote" (e.g. from a Config Server), and
 by default they cannot be overridden locally, except on the command
 line. If you want to allow your applications to override the remote
